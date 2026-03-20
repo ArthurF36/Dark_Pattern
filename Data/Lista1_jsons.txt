@@ -1,0 +1,425 @@
+[
+  {
+    "url": "https://www.amazon.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Urgency",
+        "description": "Contagem regressiva para fechamento de pedidos e ofertas relâmpago."
+      }
+    ],
+    "security_risks": [
+      "Perfilamento comportamental extensivo."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.linkedin.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Social Proof",
+        "description": "Notificações constantes de visualizações de perfil para incentivar o uso da plataforma."
+      }
+    ],
+    "security_risks": [
+      "Exposição de dados profissionais a scrapers."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.shein.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Scarcity",
+        "description": "Alertas de 'estoque baixo' em quase todos os itens visualizados."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento agressivo por cookies de terceiros."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.temu.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Gamification",
+        "description": "Rodas da fortuna e jogos compulsórios para ganhar descontos."
+      }
+    ],
+    "security_risks": [
+      "Coleta excessiva de permissões de dispositivos móveis."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.netshoes.com.br/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Confirmed Shaming",
+        "description": "Opções de saída de pop-ups com linguagem que faz o usuário se sentir culpado."
+      }
+    ],
+    "security_risks": [
+      "Compartilhamento de dados com redes de anúncios."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.microsoft.com/edge",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Pre-selection",
+        "description": "Sugestão agressiva para tornar o navegador o padrão do sistema."
+      }
+    ],
+    "security_risks": [
+      "Telemetria de navegação vinculada à conta Microsoft."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.udemy.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Anchoring",
+        "description": "Exibição de preços altos 'riscados' para fazer o valor promocional parecer imperdível."
+      }
+    ],
+    "security_risks": [
+      "Retenção de dados de cartões via gateways de terceiros."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.aliexpress.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Sneak into Basket",
+        "description": "Adição automática de seguros ou cupons de frete em certos fluxos."
+      }
+    ],
+    "security_risks": [
+      "Vulnerabilidades em scripts de vendedores terceiros."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.shopee.com.br/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Fake Activity",
+        "description": "Pop-ups indicando que 'X pessoas compraram este item recentemente'."
+      }
+    ],
+    "security_risks": [
+      "Exposição a vendedores não verificados."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.fortune-tiger.net/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Bait and Switch",
+        "description": "Promessas de ganhos fáceis que levam a interfaces de apostas predatórias."
+      }
+    ],
+    "security_risks": [
+      "Alto risco de fraude financeira e malware.",
+      "Domínio frequentemente associado a esquemas de pirâmide."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Centralização massiva de dados pessoais."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Risco baixo; integridade de conteúdo baseada em comunidade."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.duckduckgo.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Mínimo; foco em privacidade."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.mozilla.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Mínimo; código aberto e focado em segurança."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.github.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Risco de exposição de chaves de API em repositórios públicos por erro do usuário."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://stackoverflow.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Risco de execução de código inseguro copiado por usuários."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.khanacademy.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Baixo; focado em educação infantil e adulta."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.gutenberg.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Baixo; site estático de livros em domínio público."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.vimeo.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de métricas de visualização."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.un.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Baixo; site institucional."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://signal.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Mínimo; criptografia de ponta a ponta nativa."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://proton.me/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Mínimo; foco em jurisdição suíça e privacidade."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.ecosia.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Dependência de resultados de busca do Bing (Microsoft)."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://archive.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Hospedagem de conteúdos históricos que podem conter scripts antigos."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://ethical.net/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Baixo."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.theguardian.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Hard to Cancel",
+        "description": "Dificuldade relativa em cancelar assinaturas digitais em comparação à adesão."
+      }
+    ],
+    "security_risks": [
+      "Scripts de rastreamento de publicidade (AdTech)."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://neal.fun/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Mínimo; site de experimentos lúdicos."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://wordpress.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Riscos inerentes a plugins de terceiros se instalados a partir do site."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.adobe.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Subscription Trap",
+        "description": "Planos anuais com cobrança mensal que possuem taxas de cancelamento ocultas."
+      }
+    ],
+    "security_risks": [
+      "Coleta de dados de uso de software em nuvem."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Infinite Scroll",
+        "description": "Feed infinito e recomendações automáticas para maximizar o tempo de tela."
+      }
+    ],
+    "security_risks": [
+      "Monitoramento detalhado de histórico de visualização e interesses."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.evernote.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Obstruction",
+        "description": "Barreiras recorrentes incentivando o upgrade para a versão Premium."
+      }
+    ],
+    "security_risks": [
+      "Armazenamento de notas pessoais em servidores de terceiros."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://medium.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Paywall",
+        "description": "Interrupção de leitura após um número limitado de artigos."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento de leitura entre diferentes publicações."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://mail.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Alvo constante de ataques de phishing direcionados a usuários."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://maps.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "URL de redirecionamento que pode ser abusada para mascarar destinos maliciosos."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://www.ted.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de dados básicos de marketing."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.canva.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Visual Interference",
+        "description": "Destaque excessivo para elementos 'Pro' dentro da interface gratuita."
+      }
+    ],
+    "security_risks": [
+      "Armazenamento de ativos de design proprietários em nuvem."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.spotify.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Risco de redirecionamento aberto (Open Redirect)."
+    ],
+    "confidence_level": "baixa"
+  },
+  {
+    "url": "https://www.trello.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Exposição de quadros públicos contendo informações sensíveis por descuido do usuário."
+    ],
+    "confidence_level": "alta"
+  }
+]

@@ -1,0 +1,403 @@
+[
+  {
+    "url": "https://www.amazon.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Urgency",
+        "description": "Ofertas com tempo limitado e indicadores de escassez."
+      },
+      {
+        "name": "Social Proof",
+        "description": "Avaliações e classificações influenciam decisões de compra."
+      }
+    ],
+    "security_risks": [
+      "Coleta extensiva de dados para personalização e publicidade."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.linkedin.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Nagging",
+        "description": "Convites frequentes para completar perfil ou adicionar conexões."
+      }
+    ],
+    "security_risks": [
+      "Coleta de dados profissionais e comportamento do usuário."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.shein.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Urgency",
+        "description": "Promoções com contagem regressiva."
+      },
+      {
+        "name": "Scarcity",
+        "description": "Mensagens de estoque limitado."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento de comportamento para anúncios direcionados."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.temu.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Gamification",
+        "description": "Recompensas e jogos para incentivar compras."
+      }
+    ],
+    "security_risks": [
+      "Coleta agressiva de dados do usuário."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.netshoes.com.br/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Urgency",
+        "description": "Descontos limitados no tempo."
+      }
+    ],
+    "security_risks": [
+      "Uso de cookies para rastreamento de consumo."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://www.microsoft.com/edge",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de telemetria do navegador."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.udemy.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Fake Discounts",
+        "description": "Cursos frequentemente com descontos elevados."
+      }
+    ],
+    "security_risks": [
+      "Coleta de dados educacionais e preferências."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.aliexpress.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Scarcity",
+        "description": "Indicadores de quantidade limitada."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento extensivo de usuários."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.shopee.com.br/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Gamification",
+        "description": "Cupons e recompensas interativas."
+      }
+    ],
+    "security_risks": [
+      "Coleta de dados para personalização."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.fortune-tiger.net/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Addictive Design",
+        "description": "Elementos de cassino e reforço intermitente."
+      }
+    ],
+    "security_risks": [
+      "Risco de fraude e coleta de dados sensíveis."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta massiva de dados de busca."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.duckduckgo.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.mozilla.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.github.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Possível exposição de código sensível."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://stackoverflow.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.khanacademy.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.gutenberg.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.vimeo.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de dados de visualização."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://www.un.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://signal.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://proton.me/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.ecosia.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://archive.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://ethical.net/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://www.theguardian.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Nagging",
+        "description": "Solicitações frequentes de assinatura."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento para anúncios."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://neal.fun/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://wordpress.org/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Dependência de atualizações manuais para correção de falhas de segurança."],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.adobe.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Forced Continuity",
+        "description": "Assinaturas com renovação automática."
+      }
+    ],
+    "security_risks": [
+      "Coleta de dados de uso."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Autoplay",
+        "description": "Reprodução automática para aumentar engajamento."
+      }
+    ],
+    "security_risks": [
+      "Coleta extensiva de dados de comportamento."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.evernote.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Nagging",
+        "description": "Incentivos para upgrade de plano."
+      }
+    ],
+    "security_risks": [
+      "Armazenamento de dados pessoais."
+    ],
+    "confidence_level": "média"
+  },
+  {
+    "url": "https://medium.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Paywall",
+        "description": "Limitação de conteúdo gratuito."
+      }
+    ],
+    "security_risks": [
+      "Rastreamento de leitura."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://mail.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de dados de comunicação."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://maps.google.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Coleta de localização."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.ted.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.canva.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Freemium Pressure",
+        "description": "Recursos premium incentivados."
+      }
+    ],
+    "security_risks": [
+      "Armazenamento de conteúdo do usuário."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.spotify.com/",
+    "manipulative_design": true,
+    "patterns_detected": [
+      {
+        "name": "Freemium Pressure",
+        "description": "Limitações na versão gratuita."
+      }
+    ],
+    "security_risks": [
+      "Coleta de hábitos de escuta."
+    ],
+    "confidence_level": "alta"
+  },
+  {
+    "url": "https://www.trello.com/",
+    "manipulative_design": false,
+    "patterns_detected": [],
+    "security_risks": [
+      "Armazenamento de dados de projetos."
+    ],
+    "confidence_level": "alta"
+  }
+]
